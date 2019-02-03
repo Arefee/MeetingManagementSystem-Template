@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>login </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../vendors/font-awesome/css/parastoo-font-v1.0.0-alpha5/web" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="../vendors/animate.css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    
+        
+  </head>
+
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <div>
+              <br/>
+                  <p style="font-size: 36px"> سامانه مدیریت جلسات </p>
+                  <br />
+                </div>
+            <form>
+              
+              <h1>ورود</h1>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input type="text" dir="rtl" class="form-control" placeholder="نام کاربری" required="" />
+                
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input type="password" dir="rtl" class="form-control" placeholder="رمز ورود" required="" />
+              </div>
+              <div>
+                <a class="reset_pass" >آیا رمز خود را فراموش کرده اید ؟</a>
+				            <form action="groups.html"><input type="submit" class="btn btn-default submit" value="ورود"></form>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">آیا برای اولین بار از سامانه استفاده می کنید؟
+                  
+                </p>
+                <a href="#signup" class="to_register" style="color: #002B5F ; font-size: 14px"> ثبت نام  </a>
+
+                <div class="clearfix"></div>
+                <br />
+
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <div id="register" class="animate form registration_form">
+          <section class="login_content">
+            <div>
+              <br/>
+                  <p style="font-size: 36px"> سامانه مدیریت جلسات </p>
+                  <br/>
+                </div>
+            <form>
+              <h1>ثبت مشخصات</h1>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input type="text" class="form-control" dir="rtl" placeholder="نام" required="" />
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input type="text" class="form-control" dir="rtl"  placeholder="نام خانوادگی" required="" />
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input type="text" class="form-control" dir="rtl" placeholder="نام کاربری" required="" />
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">email</i>
+                </div>
+                <input type="email" class="form-control" dir="rtl" placeholder="ایمیل " required="" />
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input type="password" class="form-control" dir="rtl" placeholder="رمز عبور" required="" />
+              </div>
+              <div>
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input type="password" class="form-control" dir="rtl" placeholder="تکرار رمز عبور" required="" />
+              </div>
+              <div>
+                <input type="submit" class="btn btn-default submit" value="ثبت">
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">آیا قبلا ثبت نام کرده اید ؟ 
+                  <a href="#signin" class="to_register"> ورود به سیستم </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
